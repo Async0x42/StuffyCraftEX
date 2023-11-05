@@ -16,3 +16,17 @@ minecraft/local/
 minecraft/fancymenu_data/
 minecraft/essential/
 !minecraft/essential/config.toml
+
+minecraft/whitelist.json
+
+minecraft/v6_config.json
+
+minecraft/TrashSlotSaveState.json
+
+minecraft/servers.dat
+
+minecraft/servers.dat_old
+
+minecraft/servers.essential.dat
+
+minecraft/ops.json
