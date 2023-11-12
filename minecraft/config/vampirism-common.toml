@@ -1,0 +1,5 @@
+
+#Common configuration settings. Most other configuration can be found in the world (server)configuration folder
+[common]
+	#Send mod version, MC version and mod count to mod author
+	collectStats = false
