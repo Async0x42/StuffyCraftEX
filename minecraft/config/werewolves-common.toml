@@ -1,0 +1,6 @@
+
+[common_server]
+	#Weight of silver ore spawning
+	#Range: 0 ~ 256
+	silverOreWeight = 0
+
