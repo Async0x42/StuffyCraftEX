@@ -3,3 +3,18 @@
 [common]
 	#Send mod version, MC version and mod count to mod author
 	collectStats = false
+
+#Affects all worlds. This is only considered on server (or in singleplayer), but Forge requires us to put it here
+[common-server]
+
+	#Settings here require a game restart
+	[common-server.world]
+		#Whether to inject the vampire forest into the default overworld generation and to replace some Taiga areas
+		addVampireForestToOverworld = false
+		#Use the vanilla campfire block instead of Vampirism's much cooler one
+		useVanillaCampfire = true
+
+		[common-server.world.village]
+			#Whether village Temples should be replaced with versions that contain church altars.
+			villageReplaceTemples = false
+
