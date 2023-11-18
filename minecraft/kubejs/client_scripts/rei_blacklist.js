@@ -184,10 +184,10 @@ REIEvents.hide('item', event => {
     //'mekanism:block_charcoal',
     'mekanism:creative_fluid_tank',
     'mekanism:creative_chemical_tank',
-    'mekanism:uranium_ore',
-    'mekanism:deepslate_uranium_ore',
-    'mekanism:block_raw_uranium',
-    'mekanism:raw_uranium',
+    //'mekanism:uranium_ore',
+    //'mekanism:deepslate_uranium_ore',
+    //'mekanism:block_raw_uranium',
+    //'mekanism:raw_uranium',
 
     // Mekanism Additions
     'mekanismadditions:baby_creeper_spawn_egg',
