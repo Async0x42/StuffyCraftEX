@@ -203,43 +203,44 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}ladder`);
 
   // Ars Nouveau
-  event.shaped('ars_nouveau:novice_spell_book', [
-    'ABC',
-    'DE ',
-    '   ',
-  ], {
-    A: 'minecraft:book',
-    B: 'aether:gravitite_shovel',
-    C: 'aether:gravitite_pickaxe',
-    D: 'aether:gravitite_axe',
-    E: 'aether:gravitite_sword',
-  }).id(`${ID_PREFIX}novice_spell_book`);
+  // Async0x42: don't change ars_nouveau spell books
+  // event.shaped('ars_nouveau:novice_spell_book', [
+  //   'ABC',
+  //   'DE ',
+  //   '   ',
+  // ], {
+  //   A: 'minecraft:book',
+  //   B: 'aether:gravitite_shovel',
+  //   C: 'aether:gravitite_pickaxe',
+  //   D: 'aether:gravitite_axe',
+  //   E: 'aether:gravitite_sword',
+  // }).id(`${ID_PREFIX}novice_spell_book`);
 
-  event.shaped('ars_nouveau:apprentice_spell_book', [
-    'ABC',
-    'CCD',
-    'DEE',
-  ], {
-    A: 'ars_nouveau:novice_spell_book',
-    B: 'forbidden_arcanus:obsidian_skull',
-    C: 'forbidden_arcanus:stellarite_piece',
-    D: 'create:polished_rose_quartz',
-    E: 'minecraft:blaze_rod',
-  }).id(`${ID_PREFIX}apprentice_spell_book`);
+  // event.shaped('ars_nouveau:apprentice_spell_book', [
+  //   'ABC',
+  //   'CCD',
+  //   'DEE',
+  // ], {
+  //   A: 'ars_nouveau:novice_spell_book',
+  //   B: 'forbidden_arcanus:obsidian_skull',
+  //   C: 'forbidden_arcanus:stellarite_piece',
+  //   D: 'create:polished_rose_quartz',
+  //   E: 'minecraft:blaze_rod',
+  // }).id(`${ID_PREFIX}apprentice_spell_book`);
 
-  event.shaped('ars_nouveau:archmage_spell_book', [
-    'ABC',
-    'DDE',
-    'FFG',
-  ], {
-    A: 'ars_nouveau:apprentice_spell_book',
-    B: 'forbidden_arcanus:dark_nether_star',
-    C: 'ars_nouveau:wilden_tribute',
-    D: 'deeperdarker:reinforced_echo_shard',
-    E: 'alexsmobs:void_worm_eye',
-    F: 'forbidden_arcanus:dragon_scale',
-    G: 'minecraft:totem_of_undying',
-  }).id(`${ID_PREFIX}archmage_spell_book`);
+  // event.shaped('ars_nouveau:archmage_spell_book', [
+  //   'ABC',
+  //   'DDE',
+  //   'FFG',
+  // ], {
+  //   A: 'ars_nouveau:apprentice_spell_book',
+  //   B: 'forbidden_arcanus:dark_nether_star',
+  //   C: 'ars_nouveau:wilden_tribute',
+  //   D: 'deeperdarker:reinforced_echo_shard',
+  //   E: 'alexsmobs:void_worm_eye',
+  //   F: 'forbidden_arcanus:dragon_scale',
+  //   G: 'minecraft:totem_of_undying',
+  // }).id(`${ID_PREFIX}archmage_spell_book`);
 
   // Darker Depths
   //shaped2x2('darkerdepths:ash_block', '#valhelsia:ash', 'ash_block');
@@ -288,21 +289,23 @@ ServerEvents.recipes(event => {
   shaped2x2('farmersdelight:canvas', 'supplementaries:flax', 'canvas_from_flax');
 
   // Immersive Engineering
-  shaped3x3('immersiveengineering:storage_silver', '#forge:ingots/silver', 'silver_block_from_silver_ingots');
-  shaped3x3('immersiveengineering:storage_steel', '#forge:ingots/steel', 'steel_block_from_steel_ingots');
-  shaped3x3('immersiveengineering:ingot_silver', '#forge:nuggets/silver', 'silver_ingot_from_silver_nuggets');
+  // Async0x42: disabled
+  // shaped3x3('immersiveengineering:storage_silver', '#forge:ingots/silver', 'silver_block_from_silver_ingots');
+  // shaped3x3('immersiveengineering:storage_steel', '#forge:ingots/steel', 'steel_block_from_steel_ingots');
+  // shaped3x3('immersiveengineering:ingot_silver', '#forge:nuggets/silver', 'silver_ingot_from_silver_nuggets');
 
   // Mekanism
-  event.shaped('mekanismtools:steel_paxel', [
-    'ABC',
-    ' D ',
-    ' D '
-  ], {
-    A: 'immersiveengineering:pickaxe_steel',
-    B: 'immersiveengineering:axe_steel',
-    C: 'immersiveengineering:shovel_steel',
-    D: '#forge:rods/wooden'
-  }).id(`${ID_PREFIX}steel_paxel`);
+  // Async0x42: disabled
+  // event.shaped('mekanismtools:steel_paxel', [
+  //   'ABC',
+  //   ' D ',
+  //   ' D '
+  // ], {
+  //   A: 'immersiveengineering:pickaxe_steel',
+  //   B: 'immersiveengineering:axe_steel',
+  //   C: 'immersiveengineering:shovel_steel',
+  //   D: '#forge:rods/wooden'
+  // }).id(`${ID_PREFIX}steel_paxel`);
 
   // Sophisticated Backpacks
   //event.shaped('sophisticatedbackpacks:backpack', [

@@ -31,21 +31,22 @@ ServerEvents.recipes(event => {
   [
     // Ars Nouveau
     'ars_nouveau:archwood_to_chest', // Duplicate Recipe.
-    'ars_nouveau:novice_spell_book', // Replaced with a different recipe.
-    'ars_nouveau:apprentice_spell_book_upgrade', // Replaced with a different recipe.
-    'ars_nouveau:archmage_spell_book_upgrade', // Replaced with a different recipe.
+    // 'ars_nouveau:novice_spell_book', // Replaced with a different recipe. // Async0x42: disabled
+    // 'ars_nouveau:apprentice_spell_book_upgrade', // Replaced with a different recipe. // Async0x42: disabled
+    // 'ars_nouveau:archmage_spell_book_upgrade', // Replaced with a different recipe. // Async0x42: disabled
 
     // Ad Astra
-    'ad_astra:compressing/iron_plate_from_compressing_iron_ingot',
-    'ad_astra:compressing/steel_plate_from_compressing_steel_ingot',
-    'ad_astra:hammering/iron_plate',
-    'ad_astra:hammering/steel_plate',
-    'ad_astra:recipes/iron_rod',
-    'ad_astra:recipes/steel_block',
-    'ad_astra:recipes/steel_ingot',
-    'ad_astra:recipes/steel_nugget',
-    'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot',
-    'ad_astra:recipes/steel_ingot_from_nuggets',
+    // Async0x42: disabled
+    // 'ad_astra:compressing/iron_plate_from_compressing_iron_ingot',
+    // 'ad_astra:compressing/steel_plate_from_compressing_steel_ingot',
+    // 'ad_astra:hammering/iron_plate',
+    // 'ad_astra:hammering/steel_plate',
+    // 'ad_astra:recipes/iron_rod',
+    // 'ad_astra:recipes/steel_block',
+    // 'ad_astra:recipes/steel_ingot',
+    // 'ad_astra:recipes/steel_nugget',
+    // 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot',
+    // 'ad_astra:recipes/steel_ingot_from_nuggets',
 
     // The Aether
     'aether:skyroot_beehive', // EveryCompat includes a proper one.
@@ -83,82 +84,86 @@ ServerEvents.recipes(event => {
     //'ecologics:moss_block',
 
     // Embers
-    'embers:lead_ingot_to_block',
-    'embers:lead_block_to_ingot',
-    'embers:lead_nugget_to_ingot',
-    'embers:lead_ingot_to_nugget',
-    'embers:lead_raw_block_to_raw',
-    'embers:lead_raw_to_raw_block',
-    'embers:silver_block_to_ingot',
-    'embers:silver_nugget_to_ingot',
-    'embers:silver_ingot_to_nugget',
-    'embers:silver_raw_block_to_raw',
-    'embers:silver_raw_to_raw_block',
+    // Async0x42: disabled
+    // 'embers:lead_ingot_to_block',
+    // 'embers:lead_block_to_ingot',
+    // 'embers:lead_nugget_to_ingot',
+    // 'embers:lead_ingot_to_nugget',
+    // 'embers:lead_raw_block_to_raw',
+    // 'embers:lead_raw_to_raw_block',
+    // 'embers:silver_block_to_ingot',
+    // 'embers:silver_nugget_to_ingot',
+    // 'embers:silver_ingot_to_nugget',
+    // 'embers:silver_raw_block_to_raw',
+    // 'embers:silver_raw_to_raw_block',
 
     // Farmer's Delight
     //'farmersdelight:cake_from_milk_bottle', // Redundant: Same as Neapolitan's recipe.
 
     // Galosphere
-    'galosphere:raw_silver',
-    'galosphere:raw_silver_block',
-    'galosphere:silver_ingot_from_nuggets',
-    'galosphere:silver_ingot',
-    'galosphere:silver_nugget',
+    // Async0x42: disabled
+    // 'galosphere:raw_silver',
+    // 'galosphere:raw_silver_block',
+    // 'galosphere:silver_ingot_from_nuggets',
+    // 'galosphere:silver_ingot',
+    // 'galosphere:silver_nugget',
 
     // Immersive Engineering
-    'immersiveengineering:crafting/paper_from_sawdust', // Removed since Mekanism method made this redundant.
-    'immersiveengineering:metalpress/blaze_rod', // Replaced to avoid blaze powder duping - changed from 4 dust to 6.
+    // Async0x42: disabled
+    // 'immersiveengineering:crafting/paper_from_sawdust', // Removed since Mekanism method made this redundant.
+    // 'immersiveengineering:metalpress/blaze_rod', // Replaced to avoid blaze powder duping - changed from 4 dust to 6.
     
-    // Redundant IE Metal Recipes (either duplicate or replaced)
-    'immersiveengineering:crafting/ingot_lead_to_storage_lead',
-    'immersiveengineering:crafting/ingot_uranium_to_storage_uranium',
-    'immersiveengineering:crafting/ingot_silver_to_storage_silver',
-    'immersiveengineering:crafting/ingot_steel_to_storage_steel',
+    // // Redundant IE Metal Recipes (either duplicate or replaced)
+    // 'immersiveengineering:crafting/ingot_lead_to_storage_lead',
+    // 'immersiveengineering:crafting/ingot_uranium_to_storage_uranium',
+    // 'immersiveengineering:crafting/ingot_silver_to_storage_silver',
+    // 'immersiveengineering:crafting/ingot_steel_to_storage_steel',
 
-    'immersiveengineering:crafting/storage_lead_to_ingot_lead',
-    'immersiveengineering:crafting/storage_uranium_to_ingot_uranium',
-    'immersiveengineering:crafting/storage_steel_to_ingot_steel',
+    // 'immersiveengineering:crafting/storage_lead_to_ingot_lead',
+    // 'immersiveengineering:crafting/storage_uranium_to_ingot_uranium',
+    // 'immersiveengineering:crafting/storage_steel_to_ingot_steel',
 
-    'immersiveengineering:crafting/nugget_copper_to_copper_ingot',
-    'immersiveengineering:crafting/nugget_lead_to_ingot_lead',
-    'immersiveengineering:crafting/nugget_uranium_to_ingot_uranium',
-    'immersiveengineering:crafting/nugget_silver_to_ingot_silver',
-    'immersiveengineering:crafting/nugget_steel_to_ingot_steel',
+    // 'immersiveengineering:crafting/nugget_copper_to_copper_ingot',
+    // 'immersiveengineering:crafting/nugget_lead_to_ingot_lead',
+    // 'immersiveengineering:crafting/nugget_uranium_to_ingot_uranium',
+    // 'immersiveengineering:crafting/nugget_silver_to_ingot_silver',
+    // 'immersiveengineering:crafting/nugget_steel_to_ingot_steel',
 
-    'immersiveengineering:crafting/copper_ingot_to_nugget_copper',
-    'immersiveengineering:crafting/ingot_lead_to_nugget_lead',
-    'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
-    'immersiveengineering:crafting/ingot_steel_to_nugget_steel',
+    // 'immersiveengineering:crafting/copper_ingot_to_nugget_copper',
+    // 'immersiveengineering:crafting/ingot_lead_to_nugget_lead',
+    // 'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
+    // 'immersiveengineering:crafting/ingot_steel_to_nugget_steel',
 
-    'immersiveengineering:crafting/raw_block_lead_to_raw_lead',
-    'immersiveengineering:crafting/raw_block_uranium_to_raw_uranium',
+    // 'immersiveengineering:crafting/raw_block_lead_to_raw_lead',
+    // 'immersiveengineering:crafting/raw_block_uranium_to_raw_uranium',
 
-    'immersiveengineering:crafting/raw_lead_to_raw_block_lead',
-    'immersiveengineering:crafting/raw_uranium_to_raw_block_uranium',
+    // 'immersiveengineering:crafting/raw_lead_to_raw_block_lead',
+    // 'immersiveengineering:crafting/raw_uranium_to_raw_block_uranium',
 
     // Mekanism
     //'mekanism:charcoal',
     //'mekanism:storage_blocks/charcoal',
-    'mekanismtools:steel/tools/sword',
-    'mekanismtools:steel/tools/pickaxe',
-    'mekanismtools:steel/tools/axe',
-    'mekanismtools:steel/tools/shovel',
-    'mekanismtools:steel/tools/hoe',
-    'mekanismtools:steel/armor/helmet',
-    'mekanismtools:steel/armor/chestplate',
-    'mekanismtools:steel/armor/leggings',
-    'mekanismtools:steel/armor/boots',
-    'mekanismtools:lapis_lazuli/tools/sword',
-    'mekanismtools:lapis_lazuli/tools/pickaxe',
-    'mekanismtools:lapis_lazuli/tools/axe',
-    'mekanismtools:lapis_lazuli/tools/shovel',
-    'mekanismtools:lapis_lazuli/tools/hoe',
-    'mekanismtools:lapis_lazuli/tools/paxel',
-    'mekanismtools:lapis_lazuli/shield',
-    'mekanismtools:lapis_lazuli/armor/helmet',
-    'mekanismtools:lapis_lazuli/armor/chestplate', 
-    'mekanismtools:lapis_lazuli/armor/leggings',
-    'mekanismtools:lapis_lazuli/armor/boots',
+    // Async0x42: disabled
+    // 'mekanismtools:steel/tools/sword',
+    // 'mekanismtools:steel/tools/pickaxe',
+    // 'mekanismtools:steel/tools/axe',
+    // 'mekanismtools:steel/tools/shovel',
+    // 'mekanismtools:steel/tools/hoe',
+    // 'mekanismtools:steel/armor/helmet',
+    // 'mekanismtools:steel/armor/chestplate',
+    // 'mekanismtools:steel/armor/leggings',
+    // 'mekanismtools:steel/armor/boots',
+    // 'mekanismtools:lapis_lazuli/tools/sword',
+    // 'mekanismtools:lapis_lazuli/tools/pickaxe',
+    // 'mekanismtools:lapis_lazuli/tools/axe',
+    // 'mekanismtools:lapis_lazuli/tools/shovel',
+    // 'mekanismtools:lapis_lazuli/tools/hoe',
+    // 'mekanismtools:lapis_lazuli/tools/paxel',
+    // 'mekanismtools:lapis_lazuli/shield',
+    // 'mekanismtools:lapis_lazuli/armor/helmet',
+    // 'mekanismtools:lapis_lazuli/armor/chestplate', 
+    // 'mekanismtools:lapis_lazuli/armor/leggings',
+    // 'mekanismtools:lapis_lazuli/armor/boots',
 
     // MineColonies
     'minecolonies:chainmailhelmet', // Replaced with a different recipe.
@@ -172,7 +177,8 @@ ServerEvents.recipes(event => {
     //'minecraft:furnace', // Quark provides an alternative.
 
     // PneumaticCraft: Repressurized
-    'pneumaticcraft:copper_nugget', // Duplicate Recipe.
+    // Async0x42: disabled
+    // 'pneumaticcraft:copper_nugget', // Duplicate Recipe.
 
     // Quark
     //'quark:building/crafting/oak_bookshelf', // Duplicate recipe.

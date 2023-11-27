@@ -22,7 +22,7 @@ ServerEvents.tags('item', event => {
   // ----- Valhelsia Tags -----
   event.add('valhelsia:ropes', [
     'farmersdelight:rope',
-    'immersiveengineering:wirecoil_structure_rope',
+    // 'immersiveengineering:wirecoil_structure_rope', // Async0x42: disabled
     'supplementaries:rope',
   ]);
 
@@ -39,11 +39,11 @@ ServerEvents.tags('item', event => {
   
   event.add('valhelsia:electron_tubes', [
     'create:electron_tube',
-    'immersiveengineering:electron_tube',
+    // 'immersiveengineering:electron_tube', // Async0x42: disabled
   ]);
   
   event.add('valhelsia:cheese', [
-    'ad_astra:cheese',
+    // 'ad_astra:cheese', // Async0x42: disabled
     //'brewinandchewin:flaxen_cheese_wedge',
   ]);
 
@@ -91,23 +91,23 @@ ServerEvents.tags('item', event => {
   ]);
 
   event.add('forge:flour/wheat', [
-    'pneumaticcraft:wheat_flour',
+    // 'pneumaticcraft:wheat_flour', // Async0x42: disabled
   ]);
 
   // ----- Logs / Wood -----
   event.add('forge:stripped_logs', [
-    'forbidden_arcanus:stripped_aurum_log',
+    // 'forbidden_arcanus:stripped_aurum_log', // Async0x42: disabled
     //'upgrade_aquatic:stripped_driftwood_log',
   ]);
 
   event.add('forge:stripped_wood', [
-    'forbidden_arcanus:stripped_aurum_wood',
+    // 'forbidden_arcanus:stripped_aurum_wood', // Async0x42: disabled
     //'upgrade_aquatic:stripped_driftwood',
   ]);
 
   event.add('minecraft:logs_that_burn', [
-    'forbidden_arcanus:aurum_log',
-    'forbidden_arcanus:stripped_aurum_log',
+    // 'forbidden_arcanus:aurum_log', // Async0x42: disabled
+    // 'forbidden_arcanus:stripped_aurum_log', // Async0x42: disabled
   ]);
 
    
@@ -166,9 +166,9 @@ ServerEvents.tags('item', event => {
   ]);
 
   event.add('forge:sandstone/soulless', [
-    'forbidden_arcanus:soulless_sandstone',
-    'forbidden_arcanus:cut_soulless_sandstone',
-    'forbidden_arcanus:polished_soulless_sandstone',
+    // 'forbidden_arcanus:soulless_sandstone', // Async0x42: disabled
+    // 'forbidden_arcanus:cut_soulless_sandstone', // Async0x42: disabled
+    // 'forbidden_arcanus:polished_soulless_sandstone', // Async0x42: disabled
   ]);
 
   // Create Slice & Dice

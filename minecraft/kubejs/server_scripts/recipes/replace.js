@@ -43,32 +43,37 @@ ServerEvents.recipes(event => {
   COLORS.forEach((color) => replaceInput(`minecraft:${color}_dye`, `#forge:dyes/${color}`));
 
   // Ingot Compatibility
-  replaceInput('ad_astra:calorite_ingot', '#forge:ingots/calorite');
-  replaceInput('ad_astra:desh_ingot', '#forge:ingots/desh');
-  replaceInput('ad_astra:steel_ingot', '#forge:ingots/steel');
-  replaceInput('forbidden_arcanus:deorum_ingot', '#forge:ingots/deorum');
-  replaceInput('forbidden_arcanus:obsidian_ingot', '#forge:ingots/obsidian');
-  replaceInput('galosphere:silver_ingot', '#forge:ingots/silver');
-  replaceInput('immersiveengineering:ingot_silver', '#forge:ingots/silver');
+  // Async0x42: disabled
+  // replaceInput('ad_astra:calorite_ingot', '#forge:ingots/calorite');
+  // replaceInput('ad_astra:desh_ingot', '#forge:ingots/desh');
+  // replaceInput('ad_astra:steel_ingot', '#forge:ingots/steel');
+  // replaceInput('forbidden_arcanus:deorum_ingot', '#forge:ingots/deorum');
+  // replaceInput('forbidden_arcanus:obsidian_ingot', '#forge:ingots/obsidian');
+  // replaceInput('galosphere:silver_ingot', '#forge:ingots/silver');
+  // replaceInput('immersiveengineering:ingot_silver', '#forge:ingots/silver');
 
   // Plate Compatibility
-  replaceInput('ad_astra:calorite_plate', '#forge:plates/calorite');
-  replaceInput('ad_astra:desh_plate', '#forge:plates/desh');
-  replaceInput('ad_astra:steel_plate', '#forge:plates/steel');
+  // Async0x42: disabled
+  // replaceInput('ad_astra:calorite_plate', '#forge:plates/calorite');
+  // replaceInput('ad_astra:desh_plate', '#forge:plates/desh');
+  // replaceInput('ad_astra:steel_plate', '#forge:plates/steel');
 
   // Nugget Compatibility
-  replaceInput('galosphere:silver_nugget', '#forge:nuggets/silver');
-  replaceInput('immersiveengineering:nugget_silver', '#forge:nuggets/silver');
+  // Async0x42: disabled
+  // replaceInput('galosphere:silver_nugget', '#forge:nuggets/silver');
+  // replaceInput('immersiveengineering:nugget_silver', '#forge:nuggets/silver');
 
   // Raw Material Compatibility
-  replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
-  replaceInput('immersiveengineering:raw_silver', '#forge:raw_materials/silver');
+  // Async0x42: disabled
+  // replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
+  // replaceInput('immersiveengineering:raw_silver', '#forge:raw_materials/silver');
 
   // Storage Block Compatibility
-  replaceInput('galosphere:silver_block', '#forge:storage_blocks/silver');
-  replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
-  replaceInput('immersiveengineering:raw_block_silver', '#forge:storage_blocks/raw_silver');
-  replaceInput('immersiveengineering:storage_uranium', '#forge:storage_blocks/uranium');
+  // Async0x42: disabled
+  // replaceInput('galosphere:silver_block', '#forge:storage_blocks/silver');
+  // replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
+  // replaceInput('immersiveengineering:raw_block_silver', '#forge:storage_blocks/raw_silver');
+  // replaceInput('immersiveengineering:storage_uranium', '#forge:storage_blocks/uranium');
   
   // Cheese Compatibility
   //replaceInput('ad_astra:cheese', '#valhelsia:cheese');
@@ -76,11 +81,11 @@ ServerEvents.recipes(event => {
 
   // Electron Tube Compatibility
   replaceInput('create:electron_tube', '#valhelsia:electron_tubes');
-  replaceInput('immersiveengineering:electron_tube', '#valhelsia:electron_tubes');
+  // replaceInput('immersiveengineering:electron_tube', '#valhelsia:electron_tubes'); // Async0x42: disabled
 
   // Flour Compatibility
   replaceInput('create:wheat_flour', '#forge:flour/wheat');
-  replaceInput('pneumaticcraft:wheat_flour', '#forge:flour/wheat');
+  // replaceInput('pneumaticcraft:wheat_flour', '#forge:flour/wheat'); // Async0x42: disabled
 
   // Rope Unification
   replaceInput('farmersdelight:rope', '#valhelsia:ropes');
@@ -98,56 +103,57 @@ ServerEvents.recipes(event => {
     // TODO: Check which other recipes need sticks changed to use tags.
   //], 'minecraft:stick', '#forge:rods/wooden');
 
-  replaceInputID('galosphere:silver_panel', 'galosphere:silver_block', '#forge:storage_blocks/silver');
+  // replaceInputID('galosphere:silver_panel', 'galosphere:silver_block', '#forge:storage_blocks/silver'); // Async0x42: disabled
   
   // ----- Output Unification -----
 
   // Note: Priority for metals is Create > Mekanism > Immersive Engineering > Darker Depths
 
   // Nuggets
-  replaceOutput('galosphere:silver_nugget', 'immersiveengineering:nugget_silver');
-  replaceOutput('embers:silver_nugget', 'immersiveengineering:nugget_silver');
-  replaceOutput('embers:lead_nugget', 'mekanism:nugget_lead');
-  replaceOutput('immersiveengineering:nugget_copper', 'create:copper_nugget');
-  replaceOutput('immersiveengineering:nugget_lead', 'mekanism:nugget_lead');
-  replaceOutput('immersiveengineering:nugget_steel', 'mekanism:nugget_steel');
-  replaceOutput('immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium');
+  // Async0x42: disabled
+  // replaceOutput('galosphere:silver_nugget', 'immersiveengineering:nugget_silver');
+  // replaceOutput('embers:silver_nugget', 'immersiveengineering:nugget_silver');
+  // replaceOutput('embers:lead_nugget', 'mekanism:nugget_lead');
+  // replaceOutput('immersiveengineering:nugget_copper', 'create:copper_nugget');
+  // replaceOutput('immersiveengineering:nugget_lead', 'mekanism:nugget_lead');
+  // replaceOutput('immersiveengineering:nugget_steel', 'mekanism:nugget_steel');
+  // replaceOutput('immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium');
 
   // Ingots
   //replaceOutput('darkerdepths:silver_ingot', 'immersiveengineering:ingot_silver');
-  replaceOutput('galosphere:silver_ingot', 'immersiveengineering:ingot_silver');
-  replaceOutput('embers:silver_ingot', 'immersiveengineering:ingot_silver');
-  replaceOutput('embers:lead_ingot', 'mekanism:ingot_lead');
-  replaceOutput('immersiveengineering:ingot_lead', 'mekanism:ingot_lead');
-  replaceOutput('immersiveengineering:ingot_steel', 'mekanism:ingot_steel');
-  replaceOutput('immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium');
+  // replaceOutput('galosphere:silver_ingot', 'immersiveengineering:ingot_silver'); // Async0x42: disabled
+  // replaceOutput('embers:silver_ingot', 'immersiveengineering:ingot_silver'); // Async0x42: disabled
+  // replaceOutput('embers:lead_ingot', 'mekanism:ingot_lead'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:ingot_lead', 'mekanism:ingot_lead'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:ingot_steel', 'mekanism:ingot_steel'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium'); // Async0x42: disabled
 
   // Raw Ore
   //replaceOutput('darkerdepths:raw_silver', 'immersiveengineering:raw_silver');
-  replaceOutput('galosphere:raw_silver', 'immersiveengineering:raw_silver');
-  replaceOutput('embers:raw_silver', 'immersiveengineering:raw_silver');
-  replaceOutput('embers:raw_lead', 'mekanism:raw_lead');
-  replaceOutput('immersiveengineering:raw_lead', 'mekanism:raw_lead');
-  replaceOutput('immersiveengineering:raw_uranium', 'mekanism:raw_uranium');
+  // replaceOutput('galosphere:raw_silver', 'immersiveengineering:raw_silver'); // Async0x42: disabled
+  // replaceOutput('embers:raw_silver', 'immersiveengineering:raw_silver'); // Async0x42: disabled
+  // replaceOutput('embers:raw_lead', 'mekanism:raw_lead'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:raw_lead', 'mekanism:raw_lead'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:raw_uranium', 'mekanism:raw_uranium'); // Async0x42: disabled
   //replaceOutput('immersiveengineering:raw_uranium', 'alexscaves:uranium');
   //replaceOutput('mekanism:raw_uranium', 'alexscaves:uranium');
 
   // Storage Blocks
   //replaceOutput('darkerdepths:raw_silver_block', 'immersiveengineering:raw_block_silver');
   //replaceOutput('darkerdepths:silver_block', 'immersiveengineering:storage_silver');
-  replaceOutput('galosphere:raw_silver_block', 'immersiveengineering:raw_block_silver');
-  replaceOutput('galosphere:silver_block', 'immersiveengineering:block_silver');
-  replaceOutput('embers:raw_silver_block', 'immersiveengineering:raw_block_silver');
-  replaceOutput('embers:silver_block', 'immersiveengineering:block_silver');
-  replaceOutput('embers:raw_lead_block', 'mekanism:block_raw_lead');
-  replaceOutput('embers:lead_block', 'mekanism:block_lead');
-  replaceOutput('immersiveengineering:storage_lead', 'mekanism:block_lead');
-  replaceOutput('immersiveengineering:raw_block_lead', 'mekanism:block_raw_lead');
-  replaceOutput('immersiveengineering:raw_block_uranium', 'mekanism:block_raw_uranium');
+  // replaceOutput('galosphere:raw_silver_block', 'immersiveengineering:raw_block_silver'); // Async0x42: disabled
+  // replaceOutput('galosphere:silver_block', 'immersiveengineering:block_silver'); // Async0x42: disabled
+  // replaceOutput('embers:raw_silver_block', 'immersiveengineering:raw_block_silver'); // Async0x42: disabled
+  // replaceOutput('embers:silver_block', 'immersiveengineering:block_silver'); // Async0x42: disabled
+  // replaceOutput('embers:raw_lead_block', 'mekanism:block_raw_lead'); // Async0x42: disabled
+  // replaceOutput('embers:lead_block', 'mekanism:block_lead'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:storage_lead', 'mekanism:block_lead'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:raw_block_lead', 'mekanism:block_raw_lead'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:raw_block_uranium', 'mekanism:block_raw_uranium'); // Async0x42: disabled
   //replaceOutput('immersiveengineering:raw_block_uranium', 'alexscaves:block_of_uranium');
   //replaceOutput('mekanism:block_raw_uranium', 'alexscaves:block_of_uranium');
-  replaceOutput('immersiveengineering:storage_steel', 'mekanism:block_steel');
-  replaceOutput('immersiveengineering:storage_uranium', 'mekanism:block_uranium');
+  // replaceOutput('immersiveengineering:storage_steel', 'mekanism:block_steel'); // Async0x42: disabled
+  // replaceOutput('immersiveengineering:storage_uranium', 'mekanism:block_uranium'); // Async0x42: disabled
   //replaceOutput('mekanism:block_charcoal', 'quark:charcoal_block');
 
   // Misc
@@ -162,6 +168,6 @@ ServerEvents.recipes(event => {
   //replaceInputID('mekanism:ingot_uranium', 'alexscaves:uranium_shard', 'mekanism:nugget_uranium');
   //replaceInputID('mekanism:processing/uranium/ingot/from_nuggets', 'alexscaves:uranium_shard', 'mekanism:nugget_uranium');
   //replaceOutputID('mekanism:processing/uranium/ingot/from_block', 'mekanism:ingot_uranium', 'alexscaves:uranium');
-  replaceInputID('forbidden_arcanus:silver_dragon_scale', 'minecraft:iron_ingot', '#forge:ingots/silver'); // Silver Dragon Scales are now actually silver.
+  // replaceInputID('forbidden_arcanus:silver_dragon_scale', 'minecraft:iron_ingot', '#forge:ingots/silver'); // Silver Dragon Scales are now actually silver. // Async0x42: disabled
   replaceInputID('ars_nouveau:warp_scroll', 'minecraft:lapis_lazuli', '#forge:dusts/warp'); // Now even warpier!
 });

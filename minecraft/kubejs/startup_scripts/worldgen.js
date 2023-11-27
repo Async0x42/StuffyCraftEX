@@ -18,13 +18,15 @@ WorldgenEvents.remove(event => {
 
   event.removeOres(props => {
     props.blocks = 
-    [
-      'galosphere:silver_ore',
-      'galosphere:deepslate_silver_ore',
-      'embers:lead_ore',
-      'embers:deepslate_lead_ore',
-      'embers:silver_ore',
-      'embers:deepslate_silver_ore'
+      [
+      // Async0x42: disabled galosphere
+      // 'galosphere:silver_ore',
+      // 'galosphere:deepslate_silver_ore',
+      // Async0x42: disabled embers
+      // 'embers:lead_ore',
+      // 'embers:deepslate_lead_ore',
+      // 'embers:silver_ore',
+      // 'embers:deepslate_silver_ore'
     ]
   })
 })
