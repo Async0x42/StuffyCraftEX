@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
   // Remove recipes by recipe ID.
   [
     // Ars Nouveau
-    'ars_nouveau:archwood_to_chest', // Duplicate Recipe.
+    // 'ars_nouveau:archwood_to_chest', // Duplicate Recipe. // Async0x42: disabled embers
     // 'ars_nouveau:novice_spell_book', // Replaced with a different recipe. // Async0x42: disabled
     // 'ars_nouveau:apprentice_spell_book_upgrade', // Replaced with a different recipe. // Async0x42: disabled
     // 'ars_nouveau:archmage_spell_book_upgrade', // Replaced with a different recipe. // Async0x42: disabled

@@ -169,5 +169,5 @@ ServerEvents.recipes(event => {
   //replaceInputID('mekanism:processing/uranium/ingot/from_nuggets', 'alexscaves:uranium_shard', 'mekanism:nugget_uranium');
   //replaceOutputID('mekanism:processing/uranium/ingot/from_block', 'mekanism:ingot_uranium', 'alexscaves:uranium');
   // replaceInputID('forbidden_arcanus:silver_dragon_scale', 'minecraft:iron_ingot', '#forge:ingots/silver'); // Silver Dragon Scales are now actually silver. // Async0x42: disabled
-  replaceInputID('ars_nouveau:warp_scroll', 'minecraft:lapis_lazuli', '#forge:dusts/warp'); // Now even warpier!
+  // replaceInputID('ars_nouveau:warp_scroll', 'minecraft:lapis_lazuli', '#forge:dusts/warp'); // Now even warpier! // Async0x42: disabled embers
 });

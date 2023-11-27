@@ -21,7 +21,8 @@
  */
 ServerEvents.tags('block', event => {
   // Missing Quark Revertable Chests
-  event.add('quark:revertable_chests', [
-    'ars_nouveau:archwood_chest'
-  ]);
+  // Async0x42: disabled embers
+  // event.add('quark:revertable_chests', [
+  //   'ars_nouveau:archwood_chest'
+  // ]);
 });
