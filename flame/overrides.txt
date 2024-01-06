@@ -8,6 +8,8 @@ config/artifacts/common.json5
 config/bcc-common.toml
 config/betterf3.toml
 config/bhmenu-client.toml
+config/citadel-common.toml
+config/clean_tooltips-client.toml
 config/defaultoptions/keybindings.txt
 config/defaultoptions/options.txt
 config/essential-modpack.properties
@@ -16,6 +18,7 @@ config/fancymenu/config.txt
 config/fancymenu/customizablemenus.txt
 config/fancymenu/customization/valhelsia.txt
 config/fancymenu/customization/valhelsia_game-menu.txt
+config/fancymenu/customization/valhelsia_skin-menu.txt
 config/fancymenu/locals/de_de.local
 config/fancymenu/locals/en_us.local
 config/fancymenu/locals/pl_pl.local
@@ -31,6 +34,7 @@ config/Mekanism/additions.toml
 config/Mekanism/generators.toml
 config/Mekanism/tools-client.toml
 config/Mekanism/tools.toml
+config/Mekanism/world.toml
 config/neat-client.toml
 config/Obscuria/obscure-api-client.toml
 config/raised.json
@@ -101,10 +105,11 @@ kubejs/server_scripts/tags/block_tags_remove.js
 kubejs/server_scripts/tags/entity_type_tags.js
 kubejs/server_scripts/tags/item_tags.js
 kubejs/server_scripts/tags/item_tags_remove.js
+kubejs/startup_scripts/worldgen.js
 resourcepacks/Valhelsia Paintings.zip
 resourcepacks/Valhelsia UI.zip
-shaderpacks/ComplementaryReimagined_r5.0.1.zip.txt
-shaderpacks/ComplementaryShaders_r5.0.1+Valhelsia_r1.0.zip
-shaderpacks/ComplementaryShaders_r5.0.1+Valhelsia_r1.0.zip.txt
-shaderpacks/ComplementaryUnbound_r5.0.1.zip.txt
+shaderpacks/ComplementaryReimagined_r5.1.1.zip.txt
+shaderpacks/ComplementaryShaders_r5.1.1+Valhelsia_r1.0.zip
+shaderpacks/ComplementaryShaders_r5.1.1+Valhelsia_r1.0.zip.txt
+shaderpacks/ComplementaryUnbound_r5.1.1.zip.txt
 shaderpacks/Spooklementary_1.1.zip.txt
