@@ -65,6 +65,19 @@ ServerEvents.recipes(event => {
     'aether:skyroot_tripwire_hook',
     'aether:swet_lead',
 
+    // Async0x42
+    // Everything is Copper
+    'everythingcopper:copper_chestplate',
+    'everythingcopper:copper_boots',
+    'everythingcopper:copper_helmet',
+    'everythingcopper:copper_leggings',
+
+    'everythingcopper:copper_sword',
+    'everythingcopper:copper_axe',
+    'everythingcopper:copper_pickaxe',
+    'everythingcopper:copper_hoe',
+    'everythingcopper:copper_shovel',
+
     // Botania
     //'botania:pure_daisy/sand', // Now made from Soulless Sand, which is made from Soul Sand.
 
