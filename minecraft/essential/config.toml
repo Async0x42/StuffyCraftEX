@@ -20,11 +20,15 @@
 		quick_action_bar = true
 
 [hidden]
+	previously_launched_with_container = 1
 
 	[hidden.hidden]
 		emote_perspective = 1
+		coinspurchasecreatorcode = "__default__"
 		screenshotbrowseritemsperrow = 3
 		spspinnedgamerules = ""
+		showemotepagekeybindbanner = true
+		coinsselectedcurrency = "USD"
 
 [emotes]
 
