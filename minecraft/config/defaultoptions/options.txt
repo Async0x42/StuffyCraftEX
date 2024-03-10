@@ -5,7 +5,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -36,14 +36,14 @@ simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:120
+maxFps:60
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","Valhelsia Assets.zip","builtin/DAGoldenSwetBallFixClient","builtin/emissivity_model_override","file/Valhelsia Paintings.zip","builtin/overrides_pack","file/Faithful 32x - 1.20.1.zip"]
-incompatibleResourcePacks:["builtin/towntalk","builtin/DAGoldenSwetBallFixClient","file/Valhelsia Paintings.zip"]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","Valhelsia Assets.zip","builtin/DAGoldenSwetBallFixClient","builtin/emissivity_model_override","file/Valhelsia Paintings.zip","file/Faithful 32x - 1.20.1.zip","builtin/resource/overrides_pack","builtin/resource/redux_tips","file/Better_Cats_V0.09.zip","file/Better_Farm_Animals_V0.07.zip","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/xali\u0027s Enchanted Books v0.12.0.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Vanilla v1.11.1.zip"]
+incompatibleResourcePacks:["builtin/towntalk","builtin/DAGoldenSwetBallFixClient","file/Valhelsia Paintings.zip","file/Better_Farm_Animals_V0.07.zip","file/xali\u0027s Enchanted Books v0.12.0.zip","file/xali\u0027s Potions v1.0.zip","file/xali\u0027s Enhanced Vanilla v1.11.1.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -68,7 +68,7 @@ useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
